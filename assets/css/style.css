@@ -28,7 +28,7 @@
 
 -----------------------------------------------------------------------------------*/
 /*===========================
-    1. COMMON css 
+    1. COMMON css
 ===========================*/
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 body {
@@ -445,7 +445,7 @@ p {
     -o-transform: rotate(-130deg);
     transform: rotate(-130deg); } }
 /*===========================
-    2.HEADER css 
+    2.HEADER css
 ===========================*/
 .navigation {
   -webkit-box-shadow: 0px 0px 29px 0px rgba(134, 134, 134, 0.25);
@@ -785,7 +785,7 @@ p {
           border-color: #754ef9; }
 
 /*===========================
-        3.ABOUT css 
+        3.ABOUT css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about-area {
@@ -800,185 +800,9 @@ p {
   font-size: 18px;
   font-weight: 500;
   padding-bottom: 15px; }
-.about-content ul {
-  padding-top: 15px; }
-  .about-content ul li {
-    width: 50%;
-    float: left;
-    margin-top: 5px; }
-    @media only screen and (min-width: 992px) and (max-width: 1200px) {
-      .about-content ul li {
-        width: 100%;
-        float: none; } }
-    @media (max-width: 767px) {
-      .about-content ul li {
-        width: 100%;
-        float: none; } }
-    @media only screen and (min-width: 576px) and (max-width: 767px) {
-      .about-content ul li {
-        width: 50%;
-        float: left; } }
-.about-content .single-info .info-icon i {
-  font-size: 16px;
-  color: #754ef9; }
-.about-content .single-info .info-text {
-  padding-left: 13px; }
-  .about-content .single-info .info-text p span {
-    color: #32333c; }
-
-.about-skills .skill-item .skill-header {
-  position: relative; }
-  .about-skills .skill-item .skill-header .skill-title {
-    font-size: 16px;
-    font-weight: 400; }
-  .about-skills .skill-item .skill-header .skill-percentage {
-    position: absolute;
-    top: 0;
-    right: 0;
-    font-size: 16px;
-    color: #32333c;
-    font-weight: 400;
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
-    display: -o-flex;
-    display: flex; }
-    .about-skills .skill-item .skill-header .skill-percentage .count-box {
-      font-size: 16px;
-      color: #32333c; }
-.about-skills .skill-item .skill-bar {
-  margin-top: 15px; }
-  .about-skills .skill-item .skill-bar .bar-inner {
-    width: 100%;
-    height: 5px;
-    border-radius: 5px;
-    background-color: #d9d9d9;
-    position: relative; }
-    .about-skills .skill-item .skill-bar .bar-inner .progress-line {
-      position: absolute;
-      top: 0;
-      left: 0;
-      height: 5px;
-      border-radius: 5px;
-      background-color: #754ef9;
-      -webkit-transition: all 2s ease-out 0s;
-      -moz-transition: all 2s ease-out 0s;
-      -ms-transition: all 2s ease-out 0s;
-      -o-transition: all 2s ease-out 0s;
-      transition: all 2s ease-out 0s;
-      width: 0; }
 
 /*===========================
-        4.SERVICES css 
-===========================*/
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .services-area {
-    padding-top: 90px;
-    padding-bottom: 100px; } }
-@media (max-width: 767px) {
-  .services-area {
-    padding-top: 70px;
-    padding-bottom: 80px; } }
-
-.single-service {
-  background-color: #fff;
-  border: 1px solid #eceff8;
-  border-radius: 5px;
-  padding: 25px;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s; }
-  @media (max-width: 767px) {
-    .single-service {
-      padding: 15px; } }
-  .single-service .service-icon i {
-    font-size: 60px;
-    color: #754ef9;
-    line-height: 56px; }
-  .single-service .service-content {
-    margin-top: 11px; }
-    .single-service .service-content .service-title a {
-      font-size: 22px;
-      font-weight: 600;
-      color: #32333c;
-      margin-bottom: 20px;
-      -webkit-transition: all 0.3s ease-out 0s;
-      -moz-transition: all 0.3s ease-out 0s;
-      -ms-transition: all 0.3s ease-out 0s;
-      -o-transition: all 0.3s ease-out 0s;
-      transition: all 0.3s ease-out 0s; }
-      .single-service .service-content .service-title a:hover {
-        color: #754ef9; }
-  .single-service:hover {
-    -webkit-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-    -moz-box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23);
-    box-shadow: 0px 0px 21px 0px rgba(152, 152, 152, 0.23); }
-
-/*===========================
-    4.CALL TO ACTION css 
-===========================*/
-.call-to-action {
-  position: relative;
-  z-index: 9; }
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .call-to-action {
-      padding-top: 90px;
-      padding-bottom: 100px; } }
-  @media (max-width: 767px) {
-    .call-to-action {
-      padding-top: 70px;
-      padding-bottom: 80px; } }
-  .call-to-action::before {
-    position: absolute;
-    content: '';
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(117, 78, 249, 0.7);
-    z-index: -1; }
-
-.call-action-content .action-title {
-  font-size: 45px;
-  font-weight: 700;
-  color: #fff;
-  padding-bottom: 30px; }
-  @media (max-width: 767px) {
-    .call-action-content .action-title {
-      font-size: 30px; } }
-.call-action-content p {
-  color: #fff;
-  padding-bottom: 25px; }
-.call-action-content ul li {
-  display: inline-block;
-  margin: 10px 15px 0; }
-  .call-action-content ul li .main-btn {
-    width: 180px;
-    padding: 0; }
-    .call-action-content ul li .main-btn.custom {
-      -webkit-box-shadow: none;
-      -moz-box-shadow: none;
-      box-shadow: none;
-      background-color: #fff;
-      color: #754ef9;
-      border-color: #fff; }
-      .call-action-content ul li .main-btn.custom:hover {
-        background-color: #754ef9;
-        color: #fff;
-        border-color: #754ef9; }
-    .call-action-content ul li .main-btn.custom-2 {
-      color: #fff;
-      background-color: transparent;
-      border-color: #fff; }
-      .call-action-content ul li .main-btn.custom-2:hover {
-        background-color: rgba(255, 255, 255, 0.5);
-        color: #fff;
-        border-color: #fff; }
-
-/*===========================
-        5.WORK css 
+        5.WORK css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .work-area {
@@ -1106,7 +930,7 @@ p {
       opacity: 1; }
 
 /*===========================
-       6.PRICING css 
+       6.PRICING css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .pricing-area {
@@ -1164,7 +988,7 @@ p {
       color: #754ef9; }
 
 /*===========================
-       7.BLOG css 
+       7.BLOG css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-area {
@@ -1241,7 +1065,7 @@ p {
       color: #fff; }
 
 /*===========================
-       8.CONTACT css 
+       8.CONTACT css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-area {
@@ -1330,7 +1154,7 @@ p.form-message.success, p.form-message.error {
   box-shadow: 0px 0px 12px 0px rgba(152, 152, 152, 0.46); }
 
 /*===========================
-       9.FOOTER css 
+       9.FOOTER css
 ===========================*/
 .footer-widget {
   background-color: #152136; }
@@ -1409,7 +1233,7 @@ p.form-message.success, p.form-message.error {
     border-color: #754ef9; }
 
 /*===========================
-      10.PAGE BANNER css 
+      10.PAGE BANNER css
 ===========================*/
 .page-banner {
   margin-top: 95px;
@@ -1469,7 +1293,7 @@ p.form-message.success, p.form-message.error {
         transform: translateY(-50%); }
 
 /*===========================
-   10.SINGLE BLOG PAGE css 
+   10.SINGLE BLOG PAGE css
 ===========================*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .single-blog-page {
